@@ -1,0 +1,60 @@
+/* style.css */
+.root {
+    -fx-background-color: #f4f4f9;
+    -fx-padding: 20;
+}
+
+.label-title {
+    -fx-text-fill: #333;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.text-field, .password-field, .choice-box {
+    -fx-padding: 10;
+    -fx-font-size: 14px;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-background-color: #fff;
+    -fx-pref-width: 250px;
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10 20;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+.radio-button {
+    -fx-text-fill: #333;
+    -fx-font-size: 14px;
+}
+
+.label {
+    -fx-text-fill: #888;
+    -fx-font-size: 14px;
+    -fx-padding: 10;
+}
+
+.image-view {
+    -fx-padding: 10;
+}
+
+.vbox {
+    -fx-alignment: center;
+    -fx-spacing: 10;
+}
+
+.hbox {
+    -fx-alignment: center;
+    -fx-spacing: 20;
+}

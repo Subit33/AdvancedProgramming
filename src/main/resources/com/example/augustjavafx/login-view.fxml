@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.augustjavafx.Test"
+            prefHeight="400.0" prefWidth="600.0"
+            stylesheets="@login-style.css">
+
+    <children>
+        <Label text="Login" layoutX="250" layoutY="50" styleClass="label-title"/>
+        <TextField fx:id="loginEmail" promptText="Email" layoutX="175" layoutY="100" styleClass="text-field"/>
+        <PasswordField fx:id="loginPassword" promptText="Password" layoutX="175" layoutY="150" styleClass="password-field"/>
+        <Label fx:id="loginStatus" layoutX="175" layoutY="200" styleClass="label"/>
+        <Button mnemonicParsing="false"  text="Login" layoutX="250" layoutY="250" styleClass="button"/>
+    </children>
+</AnchorPane>
